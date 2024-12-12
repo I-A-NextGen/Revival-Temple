@@ -8,7 +8,7 @@ const page = async () => {
   return (
     <>
       <div className="pt-16">
-        <div className="min-h-56 rounded-b-[56px] bg-green-500 flex items-center justify-center flex-col gap-2 text-white">
+        <div className="min-h-56 bg-green-500 flex items-center justify-center flex-col gap-2 text-white">
           <h1>Latest Blog Posts</h1>
           <p>
             Read our latest blog posts and updates about the Revival Temple.

@@ -1,30 +1,90 @@
-# Create T3 App
+# Welcome to Revival Temple: A Place of Hope ✨
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+At **Revival Temple**, we are committed to spreading the transformative power of the Gospel, fostering love and hope within our communities. Join us in our mission to restore lives and build a brighter future through faith and fellowship.
 
-## What's next? How do I make an app with this?
+---
 
-We try to keep this project as simple as possible, so you can start with just the scaffolding we set up for you, and add additional things later when they become necessary.
+## 🌟 Experience Community, Spiritual Growth, and Unwavering Support  
+Joining Revival Temple means becoming part of a nurturing community where you can grow spiritually and personally. You’ll find unwavering support as you embark on your journey of faith, surrounded by like-minded individuals dedicated to uplifting one another.
 
-If you are not familiar with the different technologies used in this project, please refer to the respective docs. If you still are in the wind, please join our [Discord](https://t3.gg/discord) and ask for help.
+---
 
-- [Next.js](https://nextjs.org)
-- [NextAuth.js](https://next-auth.js.org)
-- [Prisma](https://prisma.io)
-- [Drizzle](https://orm.drizzle.team)
-- [Tailwind CSS](https://tailwindcss.com)
-- [tRPC](https://trpc.io)
+## 🎉 Upcoming Events  
 
-## Learn More
+### Community Clean-Up Day 🧹  
+**📍 Location:** Kacyiru Market Parking Lot, Kigali  
+**📅 Date:** 16/12/2024  
+Be part of our community outreach by helping clean streets and public spaces.  
+[Register Here](#)  
 
-To learn more about the [T3 Stack](https://create.t3.gg/), take a look at the following resources:
+### Sunday Worship Service 🙏  
+**📍 Location:** Kigali Baptist Church, Nyarutarama Road, Kigali  
+**📅 Date:** 01/12/2024  
+Join us every Sunday for an uplifting service filled with worship, prayer, and inspiring sermons.  
+[Register Here](#)  
 
-- [Documentation](https://create.t3.gg/)
-- [Learn the T3 Stack](https://create.t3.gg/en/faq#what-learning-resources-are-currently-available) — Check out these awesome tutorials
+---
 
-You can check out the [create-t3-app GitHub repository](https://github.com/t3-oss/create-t3-app) — your feedback and contributions are welcome!
+## ✨ Weekly Services and Community Engagement  
 
-## How do I deploy this?
+### Uplifting Worship and Inspiring Messages  
+Experience a welcoming environment where faith and community come together every Sunday.  
+[Learn More](#)  
 
-Follow our deployment guides for [Vercel](https://create.t3.gg/en/deployment/vercel), [Netlify](https://create.t3.gg/en/deployment/netlify) and [Docker](https://create.t3.gg/en/deployment/docker) for more information.
-# Revival-Temple
+### Exciting Church Programs and Activities  
+Participate in programs designed to enrich your spiritual journey.  
+[Get Involved](#)  
+
+### Community Outreach Initiatives  
+Make a difference by joining hands with us to serve those in need and spread love.  
+[Learn More](#)  
+
+---
+
+## 📖 Featured Devotional  
+**"Feelings Don’t Have to Rule Your Life"**  
+**📅 Date:** Sunday, June 17th, 7 PM  
+This event is open to all students and families.  
+[Learn More](#)  
+
+---
+
+## 📝 Latest Blog Posts  
+
+- **A Glimpse into the Joy of Worship**  
+  *By Worship Leader Grace Mukamana*  
+  Insights on how worship connects us with God and transforms our spiritual lives.  
+  [Read More](#)  
+
+- **How to Build a Christ-Centered Family**  
+  *By Reverend Emmanuel Niyonsenga*  
+  Practical tips for nurturing faith within your home and raising children in a godly way.  
+  [Read More](#)  
+
+- **Reflections on Serving the Community**  
+  *By Sister Marie Uwimana*  
+  A heartfelt account of our recent community clean-up and its impact on Kigali’s neighborhoods.  
+  [Read More](#)  
+
+---
+
+## 🌐 Connect With Us  
+
+Join our community-focused church where love and unity prevail. Let’s spread positivity and compassion together!  
+
+**Quick Links:**  
+- [About Us](#)  
+- [Our Mission](#)  
+- [Get Involved](#)  
+- [Contact Us](#)  
+- [Volunteer](#)  
+- [Events](#)  
+- [Blog](#)  
+- [FAQs](#)  
+
+**Follow Us on Social Media:**  
+[Facebook](#) | [Instagram](#) | [Twitter](#) | [LinkedIn](#) | [YouTube](#)  
+
+---
+
+© 2024 Revival Temple. All rights reserved.  

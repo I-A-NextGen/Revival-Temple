@@ -13,4 +13,4 @@ const config = {
     "plugin:@typescript-eslint/stylistic-type-checked"
   ],
 }
-module.exports = confi
+module.exports = config;

@@ -18,7 +18,7 @@ interface data {
 }
 
 const fetchData = async (): Promise<data[]> => {
-  const response = await fetch(`${BASE_BACKEND_URL}/api/events?populate=*`);
+  const response = await fetch(`https://revival-backend.onrender.com/api/events?populate=*`);
   if (!response.ok) {
     throw new Error(`Failed to fetch: ${response.statusText}`);
   }

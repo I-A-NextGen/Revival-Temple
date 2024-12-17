@@ -5,7 +5,7 @@ import BlogCard from "./BlogCard";
 
 const HeroBlog = async () => {
     const res = await fetch(
-      "http://localhost:1337/api/blog-articles?populate=*"
+      "https://revival-backend.onrender.com/api/blogs?populate=*"
     );
     const {data} = await res.json();
 

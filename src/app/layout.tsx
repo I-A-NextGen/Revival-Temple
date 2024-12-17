@@ -3,6 +3,7 @@ import "~/styles/globals.css";
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import Navbar from "./(Homepage)/_components/Navbar";
+import Footer from "./(Homepage)/_components/Footer";
 
 export const metadata: Metadata = {
   title: "Revival Temple",
@@ -18,7 +19,9 @@ export default function RootLayout({
       <body>
       <Navbar />
         {children}
+        <Footer/>
         </body>
+
     </html>
   );
 }

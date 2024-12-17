@@ -4,10 +4,10 @@ import Link from "next/link";
 
 const Navbar = () => {
   const links = [
-    { label: "Home", href: "/" },
-    { label: "About", href: "/" },
-    { label: "Events", href: "/events" },
-    { label: "Blog", href: "/blog" },
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Events", href: "/events" },
+    { name: "Blog", href: "/blog" },
   ];
   return (
     <nav className="flex fixed w-full top-0 z-50 bg-white items-center justify-between px-8 py-4 border-b-2 border-green-600 md:px-16">
@@ -19,10 +19,10 @@ const Navbar = () => {
       <div className="flex items-center">
         {links.map((link, index) => (
           <Button size={"sm"} variant={"link"} key={index} className="hover:text-green-600" asChild>
-            <Link href={link.href}>{link.label}</Link>
+            <Link href={link.href}>{link.name}</Link>
           </Button>
         ))}
-        <Button asChild variant={"gooeyLeft"} className="bg-green-700 ml-8 from-green-400">
+        <Button asChild variant={"gooeyLeft"} className="bg-green-700 ml-2 from-green-400">
             <Link href="/">Contact us</Link>
         </Button>
       </div>

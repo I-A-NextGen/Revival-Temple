@@ -16,7 +16,7 @@ const HeroBlog = async () => {
     <section className="p-8 lg:px-16">
       <h1 className="text-4xl font-bold text-green-600">Latest Blog Posts</h1>
       <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {data.slice(0,3).map((item, i) => (
+        {data.slice(0,3).map((item:any, i:number) => (
           <BlogCard item={item} key={i}/>
         ))}
       </div>

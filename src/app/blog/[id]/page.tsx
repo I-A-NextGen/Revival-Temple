@@ -2,27 +2,22 @@ import Image from "next/image";
 import React from "react";
 import ReactMarkdown from 'react-markdown'
 
-type PageProps = {
-  params: {
-    id: string;
-  };
-};
+
 
 interface Article {
-  Title: string;
-  FeaturedImage: {
+  title: string;
+  banner: {
     url: string;
   };
-  Author: string;
-  Content: string;
+  author: string;
+  content: string;
 }
 
 
+export default async function page ({ params }:{params:any}) {
 
-const baseurl = "http://localhost:1337";
-
-const page = async ({ params }: PageProps) => {
-  const {id} = await params;
+  const { id } = await params;
+  
   const res = await fetch(
     `https://revival-backend.onrender.com/api/blogs?filters[slug][$eq]=${id}&populate=*`,
   );
@@ -64,5 +59,5 @@ const page = async ({ params }: PageProps) => {
   );
 };
 
-export default page;
+
 

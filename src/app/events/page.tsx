@@ -5,6 +5,17 @@ import { Card } from "~/components/ui/card";
 import { Button } from "~/components/ui/button";
 import Link from "next/link";
 
+interface Events{
+  id: number,
+  title: string,
+  description: string,
+  banner: {
+    url: string
+  },
+  createdAt: string,
+  slug: string
+}
+
 const page = async () => {
   const res = await fetch("https://revival-backend.onrender.com/api/events?populate=*");
   const { data } = await res.json();
@@ -19,7 +30,7 @@ const page = async () => {
         </div>
         <div className="px-8 md:px-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-16 gap-4">
           {
-            data.map((event: { Title: string ; createdAt: Date; Image: { url: string; }; },i: React.Key) => (
+            data.map((event:Events,i: number) => (
                 <Card key={i} className="p-4 flex flex-col border-2 border-green-500">
                     <h4 className="text-3xl">{event.title}</h4>
                     <img src={event.banner.url} alt="" className="h-96 mt-8 rounded-xl w-full" />

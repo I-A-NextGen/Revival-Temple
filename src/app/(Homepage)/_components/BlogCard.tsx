@@ -5,14 +5,15 @@ import { Button } from "~/components/ui/button";
 
 interface Item {
     id: number;
-    Title: string;
+    title: string;
     content: string;
-    Author: string;
+    author: string;
     Content: string;
     slug: string;
-    FeaturedImage: {
+    banner: {
         url: string;
     };
+    createdAt:string
 }
 
 interface ItemProps {
@@ -20,7 +21,6 @@ interface ItemProps {
 }
 
 const BlogCard = ({ item }: ItemProps) => {
-  // console.log(item);
   
 
   return (

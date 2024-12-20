@@ -4,14 +4,15 @@ import React from "react";
 
 interface Item {
   id: number;
-  Title: string;
+  title: string;
   DateTime: string;
   Location: string;
-  Description: string;
+  description: string;
   slug: string;
-  Image: {
+  banner: {
     url: string;
   };
+  createdAt:string
 }
 
 interface ItemProps {
